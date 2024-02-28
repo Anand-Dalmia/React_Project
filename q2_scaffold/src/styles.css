@@ -1,0 +1,90 @@
+/* Write code for your CSS here */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  .hero {
+    background-color: #f4f4f4; /* Light gray background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /*Box shadow for a subtle elevation effect*/
+  }
+  
+  .hero h4 {
+    color: #333; /* Dark gray text color for headings */
+    font-size: 24px; /* Larger font size for headings */
+    margin-bottom: 10px; /* Add some space below the heading */
+  }
+  
+  .hero p {
+    color: #666; /* Medium gray text color for paragraphs */
+    font-size: 16px; /* Normal font size for paragraphs */
+    margin-bottom: 5px; /* Add some space below each paragraph */
+  }
+  
+  .hero p:last-child {
+    margin-bottom: 0; /* Remove margin-bottom for the last paragraph */
+  }
+  
+  .hero div:nth-child(1) span {
+    font-weight: 600;
+  }
+
+
+  .skill-list {
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+  }
+  
+  /* .skill-list h2 {
+    font-size: 20px;
+    color: #333;
+  } */
+  
+  .skills-container {
+    display: flex; /* Use flexbox for horizontal alignment */
+    flex-wrap: wrap; /* Allow skills to wrap to the next line if they don't fit */    
+  }
+  
+  .skill {
+    width: auto; /* Allow each skill box to adjust its width based on content */
+    height: auto; /* Allow each skill box to adjust its height based on content */
+    padding: 10px; /* Add padding to each skill box */
+    margin-right: 20px; /* Adjust spacing between skill boxes */
+    margin-bottom: 10px; /* Add margin bottom to separate rows */
+    background-color: #ff0000; /* Default background color */
+    color: white; /* Text color */
+    font-size: 14px; /* Font size */
+    display: flex; /* Use flexbox to center text vertically */
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    /* border-radius: 20px; */
+
+  }
+  
+  
+  
+
+  /* .about {
+    margin-bottom: 30px;
+  }
+   */
+  /* .about p {
+    margin-top: 50px;
+  }
+   */
+
+   .about {
+    margin-top: 20px; /* Add margin to separate it from skills */
+  }
+  
+  .about p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
